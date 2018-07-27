@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VideoLib.iml" filepath="$PROJECT_DIR$/VideoLib.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\VideoLib\sample\app.iml" filepath="D:\AndroidStudioProjects\VideoLib\sample\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropvideoview/cropvideoview.iml" filepath="$PROJECT_DIR$/cropvideoview/cropvideoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+    </modules>
+  </component>
+</project>
