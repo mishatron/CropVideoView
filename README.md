@@ -3,7 +3,7 @@ This is a video library for android.
 
 It has all scale types. Also user can change background of view
 
-![alt text](https://raw.githubusercontent.com/mishatron/CropVideoView/master/sample/src/main/res/drawable/screenshot1.png | width=100)
+![](https://raw.githubusercontent.com/mishatron/CropVideoView/master/sample/src/main/res/drawable/screenshot1.png | width=100)
 
 ### Scale types
 ```
