@@ -1,6 +1,6 @@
 # CropVideoView
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://img.shields.io/badge/latest%20version-0.0.1-green.svg)](https://bintray.com/mishatronic/cropvideoview/cropvideoview/_latestVersion)
+[![Download](https://api.bintray.com/packages/mishatronic/cropvideoview/cropvideoview/images/download.svg)](https://bintray.com/mishatronic/cropvideoview/cropvideoview/_latestVersion)
 
 This is a video library for android.
 
