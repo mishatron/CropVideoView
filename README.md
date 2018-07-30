@@ -9,40 +9,41 @@ It has all scale types. Also user can change background of view
 ![](https://raw.githubusercontent.com/mishatron/CropVideoView/master/sample/src/main/res/drawable/screenshot1.png)
 
 ### Scale types
-```
-ScaleType {
-    NONE,
 
-    FIT_XY,
-    FIT_START,
-    FIT_CENTER,
-    FIT_END,
+# Support Scale Types  
 
-    LEFT_TOP,
-    LEFT_CENTER,
-    LEFT_BOTTOM,
-    CENTER_TOP,
-    CENTER,
-    CENTER_BOTTOM,
-    RIGHT_TOP,
-    RIGHT_CENTER,
-    RIGHT_BOTTOM,
+## Scale to fit 
+- fitXY
+- fitStart
+- fitCenter
+- fitEnd
 
-    LEFT_TOP_CROP,
-    LEFT_CENTER_CROP,
-    LEFT_BOTTOM_CROP,
-    CENTER_TOP_CROP,
-    CENTER_CROP,
-    CENTER_BOTTOM_CROP,
-    RIGHT_TOP_CROP,
-    RIGHT_CENTER_CROP,
-    RIGHT_BOTTOM_CROP,
+### No Scale
+- leftTop
+- leftCenter
+- leftBottom
+- centerTop
+- center
+- centerBottom
+- rightTop
+- rightCenter
+- rightBottom
 
-    START_INSIDE,
-    CENTER_INSIDE,
-    END_INSIDE
-}
-```
+### Crop
+- leftTopCrop
+- leftCenterCrop
+- leftBottomCrop
+- centerTopCrop
+- centerCrop
+- centerBottomCrop
+- rightTopCrop
+- rightCenterCrop
+- rightBottomCrop
+
+### Scale Inside
+- startInside
+- centerInside
+- endInside
 
 ## How to install
 
