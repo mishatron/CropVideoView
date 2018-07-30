@@ -1,6 +1,7 @@
 # CropVideoView
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://api.bintray.com/packages/yqritc/maven/android-scalablevideoview/images/download.svg)](https://bintray.com/mishatronic/cropvideoview/cropvideoview/_latestVersion)
+[![Download]](https://bintray.com/mishatronic/cropvideoview/cropvideoview/_latestVersion)
+
 This is a video library for android.
 
 It has all scale types. Also user can change background of view
