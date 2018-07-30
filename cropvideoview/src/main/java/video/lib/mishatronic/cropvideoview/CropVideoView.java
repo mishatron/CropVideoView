@@ -503,14 +503,6 @@ public class CropVideoView extends FrameLayout implements TextureView.SurfaceTex
         mListener = listener;
     }
 
-    public interface MediaPlayerListener {
-
-        void onVideoPrepared();
-
-        void onVideoEnd();
-
-        void onError(Exception e);
-    }
 
     @Override
     public void onSurfaceTextureAvailable(SurfaceTexture surfaceTexture, int width, int height) {

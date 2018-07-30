@@ -1,24 +1,8 @@
 apply plugin: 'com.android.library'
-
 ext {
-    bintrayRepo = "CropVideoView"
-    bintrayName = "cropvideoview"
-
-//            publishedGroupId = <идентификатор группы, созданный на Sonatype>
-            libraryName = "CropVideoView"
-            artifact = "mishatronic"
-
-//            libraryDescription = <описание библиотеки (если есть)>
-
-            siteUrl = "https://github.com/mishatron/CropVideoView"
-    gitUrl = "https://github.com/mishatron/CropVideoView"
-
-            libraryVersion = "0.0.1"
-
-            developerId = "mishatronic"
-            developerName = "Mykhailo"
-            developerEmail = "mish_k98@mail.ru"
-
+    PUBLISH_GROUP_ID = 'mishatronic'
+    PUBLISH_ARTIFACT_ID = 'cropvideoview'
+    PUBLISH_VERSION = '0.0.1'
 }
 android {
     compileSdkVersion 27
@@ -29,8 +13,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
-
+        versionName "0.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
@@ -51,3 +34,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+// or use the remote copy to keep update with latest changes
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
