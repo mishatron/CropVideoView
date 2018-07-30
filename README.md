@@ -60,3 +60,14 @@ dependencies {
     implementation 'mishatronic:cropvideoview:0.0.1'
 } 
 ```
+
+```
+<video.lib.mishatronic.cropvideoview.CropVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+```
