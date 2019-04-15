@@ -59,7 +59,7 @@ Add the dependency:
 ``` 
 dependencies {
     ...
-    implementation 'com.github.mishatron:CropVideoView:0.0.1'
+    implementation 'com.github.mishatron:CropVideoView:0.0.2'
 } 
 ```
 And then you can use it:

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import video.lib.mishatronic.cropvideoview.CropVideoView
+import video.lib.mishatronic.cropvideoview.MediaPlayerListener
 import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         showProgress()
 
         video_view?.background = ContextCompat.getDrawable(this, R.drawable.ic_launcher_background)
-        video_view?.setListener(object : CropVideoView.MediaPlayerListener
+        video_view?.setListener(object : MediaPlayerListener
         {
             override fun onError(e: Exception?) {
                 hideProgress()
