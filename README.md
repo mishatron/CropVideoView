@@ -1,10 +1,9 @@
 # CropVideoView
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Download](https://api.bintray.com/packages/mishatronic/cropvideoview/cropvideoview/images/download.svg)](https://bintray.com/mishatronic/cropvideoview/cropvideoview/_latestVersion)
 
 This is a video library for android.
 
-It has all scale types. Also user can change background of view
+It has all scale types. Also user can change background of view.
 
 ![](https://raw.githubusercontent.com/mishatron/CropVideoView/master/sample/src/main/res/drawable/screenshot1.png)
 
@@ -47,20 +46,23 @@ It has all scale types. Also user can change background of view
 
 ## How to install
 
-
+Add it in your root build.gradle at the end of repositories:
 ``` 
-repositories {
-    maven { url "https://mishatronic.bintray.com/cropvideoview" }
-} 
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
-
+Add the dependency:
 ``` 
 dependencies {
     ...
-    implementation 'mishatronic:cropvideoview:0.0.1'
+    implementation 'com.github.mishatron:CropVideoView:0.0.1'
 } 
 ```
-
+And then you can use it:
 ```
 <video.lib.mishatronic.cropvideoview.CropVideoView
         android:id="@+id/video_view"

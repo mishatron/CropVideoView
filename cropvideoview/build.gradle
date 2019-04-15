@@ -2,18 +2,18 @@ apply plugin: 'com.android.library'
 ext {
     PUBLISH_GROUP_ID = 'mishatronic'
     PUBLISH_ARTIFACT_ID = 'cropvideoview'
-    PUBLISH_VERSION = '0.0.1'
+    PUBLISH_VERSION = '0.0.2'
 }
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
 
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 27
-        versionCode 1
-        versionName "0.0.1"
+        targetSdkVersion 28
+        versionCode 2
+        versionName "0.0.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
@@ -29,7 +29,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
